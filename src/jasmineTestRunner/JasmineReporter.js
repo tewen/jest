@@ -9,7 +9,7 @@
 
 var colors = require('../lib/colors');
 var diff = require('diff');
-var jasmine = require('jasmine').jasmine;
+var jasmine = require('jasmine');
 var Q = require('q');
 
 var colorize = colors.colorize;
