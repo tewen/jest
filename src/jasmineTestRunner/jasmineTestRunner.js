@@ -13,7 +13,7 @@ var JasmineReporter = require('./JasmineReporter');
 var path = require('path');
 var utils = require('../lib/utils');
 
-var JASMINE_PATH = require.resolve('../../vendor/jasmine/jasmine-1.3.0');
+var JASMINE_PATH = require.resolve('jasmine');
 var jasmineFileContent =
   fs.readFileSync(require.resolve(JASMINE_PATH), 'utf8');
 
